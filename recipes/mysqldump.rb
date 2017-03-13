@@ -5,7 +5,10 @@
 # Copyright (c) 2016, David Joos
 #
 
-include_recipe 'mysql::client'
+mysql_client 'default' do
+  action :create
+end
+
 include_recipe 'chef-sugar'
 
 package 'holland-mysqldump' do
