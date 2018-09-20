@@ -5,4 +5,4 @@
 # Copyright (c) 2016, David Joos
 #
 
-default['hollandbackup']['repository']['distro'] = 'xUbuntu_12.04'
+default['hollandbackup']['repository']['distro'] = 'xUbuntu_16.04'
